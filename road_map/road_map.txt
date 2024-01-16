@@ -1,0 +1,51 @@
+ Flutter project
+ -> Get the dependencies()   dio: ^5.3.4
+                             get_it: ^7.6.4
+
+ -> make  main.json (assets/config/main.json) file for storing the API Key and others sensitive information
+
+ -> create app_cofig.dart for accesing the main.json file for API key, base url.
+
+ -> using get it create an single instance of the class (loadConfig() function in main.dart)
+
+-> create the HTTP service class. (lib/services/http_service.dart) and then call it in the main.dart. this will call the api for receving and sending request.
+
+-> make the get request method in http_service.dart (Future get(string path) and call it in the main.dart check if you get the result
+
+-> initialize http_service.dart and AppConfig.dart  in the main.dart
+
+-> then go to home page
+
+-> create the structure.
+
+-> create the coin drop down menu and from there select the coins. then set value  in variable _selecteCoins.
+
+-> _dataShowcase() then get the _selecteCoins value and ask http_service.dart for data and using that response the ui setted up.
+
+->
+
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+
+
